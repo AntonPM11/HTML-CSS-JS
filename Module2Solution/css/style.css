@@ -1,0 +1,82 @@
+*{
+	 box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+}
+.box{
+margin: 10px;
+border: 3px solid black;
+position: relative;
+float: left;
+background-color: #b0b0b0;
+padding: 0px;
+
+
+}
+.main{
+	width: 100%;
+}
+#a{
+	background-color: #d69fa7;
+	width: 33%;
+	border-bottom: 3px solid black;
+    border-left: 3px solid black;
+	position: relative;
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+
+}
+#b{
+	background-color: #e66376;
+	width: 33%;
+	border-bottom: 3px solid black;
+    border-left: 3px solid black;
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+#c{
+	background-color: #f2f0ac;
+	width: 33%;
+	border-bottom: 3px solid black;
+    border-left: 3px solid black;
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+p{
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	clear: right;
+}
+
+
+@media(min-width: 992px){
+	.box{
+		width: 30%;
+	}
+
+}
+@media(min-width:768px ) and (max-width: 991px){
+	.box{
+		width: 47%;
+	}
+	#sushi{
+		width: 96%;
+	}
+
+}
+@media(max-width: 767px){
+	.box{
+		width: 96%;
+	}
+
+}
